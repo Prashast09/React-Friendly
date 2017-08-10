@@ -6,6 +6,7 @@ import Toolbar from './Components/Toolbar'
 //Import for uuid for each list item
 import uuid from 'uuid';
 
+
 //imports for bootstrap
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -45,7 +46,10 @@ componentWillMount(){
         id:uuid.v4(),
         title:'Ecommerce Shopping Cart',
         category: 'Web Development'
-      }
+      },
+      id:uuid.v4(),
+      title:'mTrakr Professional Site',
+      category: 'Professinal Website'
     ]
   });
 }

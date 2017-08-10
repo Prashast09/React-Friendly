@@ -73,7 +73,7 @@ class UploadScreen extends Component {
             </MuiThemeProvider>
 
         </div>
-      );
+      )
     }
 
     handleClick(event){
